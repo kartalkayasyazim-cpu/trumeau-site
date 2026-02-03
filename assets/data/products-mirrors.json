@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "mirror-001",
+      "title_ru": "Зеркало 1",
+      "title_kz": "Айна 1",
+      "image": "assets/img/products/mirrors/IMG_2445.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-002",
+      "title_ru": "Зеркало 2",
+      "title_kz": "Айна 2",
+      "image": "assets/img/products/mirrors/IMG_2446.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-003",
+      "title_ru": "Зеркало 3",
+      "title_kz": "Айна 3",
+      "image": "assets/img/products/mirrors/IMG_2447.png",
+      "style": "classic",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-004",
+      "title_ru": "Зеркало 4",
+      "title_kz": "Айна 4",
+      "image": "assets/img/products/mirrors/IMG_2448.png",
+      "style": "modern",
+      "shape": "arched",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-005",
+      "title_ru": "Зеркало 5",
+      "title_kz": "Айна 5",
+      "image": "assets/img/products/mirrors/IMG_2449.png",
+      "style": "modern",
+      "shape": "round",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-006",
+      "title_ru": "Зеркало 6",
+      "title_kz": "Айна 6",
+      "image": "assets/img/products/mirrors/IMG_2450.png",
+      "style": "classic",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-007",
+      "title_ru": "Зеркало 7",
+      "title_kz": "Айна 7",
+      "image": "assets/img/products/mirrors/IMG_2451.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-008",
+      "title_ru": "Зеркало 8",
+      "title_kz": "Айна 8",
+      "image": "assets/img/products/mirrors/IMG_2452.png",
+      "style": "modern",
+      "shape": "arched",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-009",
+      "title_ru": "Зеркало 9",
+      "title_kz": "Айна 9",
+      "image": "assets/img/products/mirrors/IMG_2453.png",
+      "style": "classic",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-010",
+      "title_ru": "Зеркало 10",
+      "title_kz": "Айна 10",
+      "image": "assets/img/products/mirrors/IMG_2454.png",
+      "style": "modern",
+      "shape": "round",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-011",
+      "title_ru": "Зеркало 11",
+      "title_kz": "Айна 11",
+      "image": "assets/img/products/mirrors/IMG_2455.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-012",
+      "title_ru": "Зеркало 12",
+      "title_kz": "Айна 12",
+      "image": "assets/img/products/mirrors/IMG_2456.png",
+      "style": "classic",
+      "shape": "arched",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-013",
+      "title_ru": "Зеркало 13",
+      "title_kz": "Айна 13",
+      "image": "assets/img/products/mirrors/IMG_2469.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-014",
+      "title_ru": "Зеркало 14",
+      "title_kz": "Айна 14",
+      "image": "assets/img/products/mirrors/IMG_2470.png",
+      "style": "modern",
+      "shape": "rect",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-015",
+      "title_ru": "Зеркало 15",
+      "title_kz": "Айна 15",
+      "image": "assets/img/products/mirrors/IMG_2471.png",
+      "style": "classic",
+      "shape": "round",
+      "color": "gold"
+    },
+    {
+      "id": "mirror-016",
+      "title_ru": "Зеркало 16",
+      "title_kz": "Айна 16",
+      "image": "assets/img/products/mirrors/IMG_2636.png",
+      "style": "modern",
+      "shape": "arched",
+      "color": "gold"
+    }
+  ]
+}

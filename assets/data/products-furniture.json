@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "furniture-001",
+      "title_ru": "Консоль 1",
+      "title_kz": "Консоль 1",
+      "image": "assets/img/products/furniture/IMG_2468.png",
+      "style": "classic",
+      "shape": "rect",
+      "color": "green"
+    }
+  ]
+}

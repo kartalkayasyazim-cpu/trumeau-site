@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRUMEAU — Contacts</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="dealer">
+  <header>
+    <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="brand-buttons">
+          <span class="pill active">TRUMEAU</span>
+          <span class="pill">COLLECTION</span>
+        </div>
+
+        <div class="logo-center" aria-label="TRUMEAU">
+          <img src="assets/img/logo.png" alt="TRUMEAU logo">
+          <div class="wordmark">TRUMEAU</div>
+        </div>
+
+        <div class="top-links">
+          <a href="dealer.html" data-i18n="top.dealer"></a>
+          <a href="catalogs.html" data-i18n="top.catalogs"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-nav">
+    <div class="container">
+      <div class="row">
+        <button class="burger" type="button" aria-label="Menu" data-burger><span></span></button>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="new.html" data-i18n="nav.new"></a>
+      <a href="mirrors.html" data-i18n="nav.mirrors"></a>
+      <a href="furniture.html" data-i18n="nav.furniture"></a>
+        </nav>
+
+        <div class="nav-right">
+          <div class="lang" aria-label="Language switcher">
+            <button type="button" data-set-lang="ru">RU</button>
+            <button type="button" data-set-lang="kz">KZ</button>
+          </div>
+
+          <a class="icon-btn" href="signin.html" aria-label="Sign in">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="drawer-overlay" data-drawer-overlay></div>
+  <aside class="drawer" aria-label="Mobile navigation">
+    <div class="drawer-head">
+      <strong>TRUMEAU</strong>
+      <button class="icon-btn" type="button" aria-label="Close" data-drawer-close>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18"></path>
+          <path d="M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="drawer-links">
+      <a href="new.html" data-i18n="nav.new"></a>
+      <a href="mirrors.html" data-i18n="nav.mirrors"></a>
+      <a href="furniture.html" data-i18n="nav.furniture"></a>
+      <a href="dealer.html" data-i18n="top.dealer"></a>
+      <a href="catalogs.html" data-i18n="top.catalogs"></a>
+    </div>
+    <p class="small" style="margin-top:12px" data-i18n="footer.note"></p>
+  </aside>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="kicker" data-i18n="category.kicker"></p>
+      <h2 data-i18n="dealer.title"></h2>
+      <p class="kicker" data-i18n="dealer.subtitle"></p>
+
+      <div class="filter-card" style="background:#fff">
+        <p><strong data-i18n="dealer.address_label"></strong>: <span data-i18n="contact.address_value"></span></p>
+        <p><strong data-i18n="dealer.phone_label"></strong>: <a href="tel:+77012261266" data-i18n="contact.phone_value"></a></p>
+        <p><strong data-i18n="dealer.whatsapp_label"></strong>: <a href="https://wa.me/77012261266" target="_blank" rel="noreferrer" data-i18n="dealer.whatsapp_cta"></a></p>
+
+        <hr style="border:none; border-top:1px solid var(--line); margin:14px 0">
+
+        <h3 style="margin:0 0 8px" data-i18n="dealer.delivery_title"></h3>
+        <ul style="margin:0; padding-left:18px">
+          <li data-i18n="delivery.line1"></li>
+          <li data-i18n="delivery.line2"></li>
+          <li data-i18n="delivery.line3"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div>
+          <h3 data-i18n="footer.brand"></h3>
+          <p class="small" data-i18n="footer.note"></p>
+        </div>
+
+        <div>
+          <h3 data-i18n="footer.contacts"></h3>
+          <p><strong data-i18n="dealer.address_label"></strong>: <span data-i18n="contact.address_value"></span></p>
+          <p><strong data-i18n="dealer.phone_label"></strong>: <a href="tel:+77012261266" data-i18n="contact.phone_value"></a></p>
+          <p><strong data-i18n="dealer.whatsapp_label"></strong>: <a href="https://wa.me/77012261266" target="_blank" rel="noreferrer" data-i18n="dealer.whatsapp_cta"></a></p>
+        </div>
+
+        <div>
+          <h3 data-i18n="footer.delivery"></h3>
+          <ul style="padding-left:18px; margin:0">
+            <li data-i18n="delivery.line1"></li>
+            <li data-i18n="delivery.line2"></li>
+            <li data-i18n="delivery.line3"></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="small" style="padding:0 0 18px; margin:0">© <span id="year"></span> TRUMEAU</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
